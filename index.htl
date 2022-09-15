@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="grocerylist.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+<h1>Shopping List</h1>
+<form acrion="add" method="get">
+  <label>Add Item:</label>
+  <input type="text" name="item">
+  <input id="addNeed" type="submit" value="Need">
+  <input id="addHave" type="submit" value="Have">
+</form>
+
+<h2>Need:</h2>
+<ul class='list'>
+  <li><input type="checkbox" name="item"> Almond Milk <a href="#">&#10006;</a></li>
+  <li><input type="checkbox" name="item"> Eggs <a href="#">&#10006;</a></li>
+  <li><input type="checkbox" name="item"> Butter <a href="#">&#10006;</a></li>
+  <li><input type="checkbox" name="item"> Veggies <a href="#">&#10006;</a></li>
+  <li><input type="checkbox" name="item"> Paper Towels <a href="#">&#10006;</a></li>
+  <li><input type="checkbox" name="item"> Bedtime Pull-ups <a href="#">&#10006;</a></li>
+
+</ul>
+
+<h2>Have:</h2>
+<ul>
+<li><input type="checkbox" name="item"> Toilet Paper <a href="#">&#10006;</a></li>
+<li><input type="checkbox" name="item"> Toothpaste <a href="#">&#10006;</a></li>
+<li><input type="checkbox" name="item"> Detangler <a href="#">&#10006;</a></li>
+<li><input type="checkbox" name="item"> Body Wash <a href="#">&#10006;</a></li>
+<li><input type="checkbox" name="item"> Curl Cream <a href="#">&#10006;</a></li>
+</ul>
+
+  </body>
+</html>
